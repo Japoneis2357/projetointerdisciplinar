@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="navbar bg-body-tertiary fixed-top">
+    <nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">._.</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -24,8 +24,13 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="../index.html">Página Principal</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="lol_timesbr.html">Times Brasileiros</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Times Brasileiros</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./cs/cstimesbr.html">Competitivo CS</a></li>
+                  <li><a class="dropdown-item" href="./lol/lol_timesbr.html">League of Legends</a></li>
+                  <li><a class="dropdown-item" href="valorant/valorant_timesbr.html">Valorant</a></li>
+                </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -34,7 +39,6 @@
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="lol_lineups.html">Lineups</a></li>
                   <li><a class="dropdown-item" href="lol_onde_assistir.html">Onde assistir?</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
             </ul>
@@ -104,15 +108,6 @@
     </div>
     <hr>
 <br>
-<div class="row featurette">
-  <div class="col-md-7">
-    <h2 class="featurette-heading fw-normal lh-1">League of Legends</h2>
-    <p class="lead">League of Legends (LoL) é um jogo de estratégia em equipe desenvolvido pela Riot Games. Os jogadores formam equipes de campeões únicos e competem para destruir o Nexus inimigo. Com elementos de estratégia em tempo real, trabalho em equipe e habilidades individuais, o LoL atrai uma grande base de jogadores. A Riot Games oferece suporte contínuo com atualizações regulares e promove uma cena competitiva global com torneios emocionantes, incluindo o Campeonato Mundial. Com uma comunidade dedicada e integridade competitiva, o LoL é um dos jogos mais populares e influentes nos eSports.</p>
-  </div>
-  <div class="col-md-5">
-   <img src="./imgs/League_of_Legends_desc.jpg" height="500px" width="700px"> 
-  </div>
-</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
